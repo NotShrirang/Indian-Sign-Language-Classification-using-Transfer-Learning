@@ -43,7 +43,6 @@ CLASS_TO_CHAR = {0 : "1",
                  34 : "Z"}
 
 def preprocessing(img):
-    img = img.astype(np.float64)
     img = Image.fromarray(img)
     img = img.resize((224, 224))
     img = np.array(img)
