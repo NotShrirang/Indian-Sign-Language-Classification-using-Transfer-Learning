@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import tensorflow as tf
-import cv2
+# import cv2
 from PIL import Image
 import warnings
 warnings.filterwarnings('ignore')
@@ -45,13 +45,13 @@ CLASS_TO_CHAR = {0 : "1",
 def preprocessing(img):
     try:
         img = img.astype(np.float64)
-        img = np.array(cv2.resize(src = np.array(img).astype(np.float32), dsize = (224, 224)).reshape(224, 224, 3))
+        img = np.array(img.resize((224, 224))).astype(np.float32).reshape(224, 224, 3)
         img = np.expand_dims(img, axis=0)
         img = img/255
         return img
     except Exception as e:
         img = img.astype(np.float64)
-        img = np.array(cv2.resize(src = np.array(img).astype(np.float32), dsize = (224, 224)).reshape(224, 224, 3))
+        img = np.array(img.resize((224, 224))).astype(np.float32).reshape(224, 224, 3)
         img = np.expand_dims(img, axis=0)
         img = img/255
         return img
