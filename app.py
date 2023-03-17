@@ -44,9 +44,8 @@ CLASS_TO_CHAR = {0 : "1",
 
 def preprocessing(img):
     img = img.astype(np.float64)
-    img = np.array(img.resize((224, 224))).astype(np.float32)
+    img = np.array(img.resize((224, 224))).reshape((224, 224, 3))
     img = np.expand_dims(img, axis=0)
-    img = np.expand_dims(img, axis=-1)
     img = img/255
     return img
 
