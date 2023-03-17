@@ -2,13 +2,16 @@
 
 ISL classification with Custom CNN and Resnet50
 
+### The app is hosted with Streamlit! - <a href="https://notshrirang-indian-sign-language-classification-usin-app-u8h4g3.streamlit.app/">Try Now!</a>
+
 <table>
 <th>Dataset</th>
 <th>Notebook</th>
+<th>Streamlit App</th>
 <tr>
-<td><a href="https://www.kaggle.com/datasets/vaishnaviasonawane/indian-sign-language-dataset">Link</a>
-</td>
+<td><a href="https://www.kaggle.com/datasets/vaishnaviasonawane/indian-sign-language-dataset">Link</a></td>
 <td><a href="https://www.kaggle.com/code/notshrirang/isl-classification">Link</a></td>
+<td><a href="https://notshrirang-indian-sign-language-classification-usin-app-u8h4g3.streamlit.app/">Link</a></td>
 </tr>
 </table>
 
