@@ -15,9 +15,66 @@ ISL classification with Custom CNN and Resnet50
 </tr>
 </table>
 
+## Inference:
+<table>
+<th>Input Sign</th>
+<th>Inference</th>
+<tr>
+<td>4</td>
+<td><img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/blob/main/Images/streamlit_output1.png"/></td>
+</tr>
+<tr>
+<td>A</td>
+<td><img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/blob/main/Images/streamlit_output2.png"/></td>
+</tr>
+</table>
 
+## Installing Requirements
+```
+pip install -r requirements.txt
+```
 
-## Accuracy and Losses
+## Get trained models
+<table>
+<th>Model Name</th>
+<th>Size</th>
+<th>Link</th>
+<tr>
+<td>
+Custom CNN
+</td>
+<td>
+799 KB
+</td>
+<td>
+<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/model_1_aug.h5">Download</a>
+</td>
+</tr>
+<tr>
+<td>
+Transfer Learning - ResNet50V2 - Model 1
+</td>
+<td>
+205 MB
+</td>
+<td>
+<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/tl_model_1.h5">Download</a>
+</td>
+</tr>
+<tr>
+<td>
+Transfer Learning - ResNet50V2 - Model 2
+</td>
+<td>
+206 MB
+</td>
+<td>
+<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/tl_model_2.h5">Download</a>
+</td>
+</tr>
+</table>
+
+## Accuracy and Losses:
 <table>
 <th>Model Name</th>
 <th>Accuracy</th>
@@ -63,51 +120,6 @@ Transfer Learning - ResNet50V2 - Model 2
 </td>
 <td>
 <img src="./Images/tl_model_2_accuracy.png"/>
-</td>
-</tr>
-</table>
-
-## Installing Requirements
-```
-pip install -r requirements.txt
-```
-
-## Get trained models
-<table>
-<th>Model Name</th>
-<th>Size</th>
-<th>Link</th>
-<tr>
-<td>
-Custom CNN
-</td>
-<td>
-799 KB
-</td>
-<td>
-<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/model_1_aug.h5">Download</a>
-</td>
-</tr>
-<tr>
-<td>
-Transfer Learning - ResNet50V2 - Model 1
-</td>
-<td>
-205 MB
-</td>
-<td>
-<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/tl_model_1.h5">Download</a>
-</td>
-</tr>
-<tr>
-<td>
-Transfer Learning - ResNet50V2 - Model 2
-</td>
-<td>
-206 MB
-</td>
-<td>
-<a href="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/releases/download/v0.0.1/tl_model_2.h5">Download</a>
 </td>
 </tr>
 </table>
