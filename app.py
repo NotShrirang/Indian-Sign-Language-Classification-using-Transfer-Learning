@@ -43,18 +43,12 @@ CLASS_TO_CHAR = {0 : "1",
                  34 : "Z"}
 
 def preprocessing(img):
-    try:
-        img = img.astype(np.float64)
-        img = np.array(img.resize((224, 224))).astype(np.float32).reshape(224, 224, 3)
-        img = np.expand_dims(img, axis=0)
-        img = img/255
-        return img
-    except Exception as e:
-        img = img.astype(np.float64)
-        img = np.array(img.resize((224, 224))).astype(np.float32).reshape(224, 224, 3)
-        img = np.expand_dims(img, axis=0)
-        img = img/255
-        return img
+    img = img.astype(np.float64)
+    img = np.array(img.resize((224, 224)))
+    img = np.stack((img,)*3, axis=-1)
+    img = np.expand_dims(img, axis=0)
+    img = img/255
+    return img
 
 st.title("Indian Sign Language Recognition")
 st.set_option('deprecation.showfileUploaderEncoding', False)
