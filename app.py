@@ -75,4 +75,4 @@ if st.button("Predict Now"):
         st.success("Predicted sign : {}".format(img_class))
 
     except Exception as e:
-        st.error(f"Connection Error - \n{e}")
+        st.error("Connection Error - \n{}".format(e))
