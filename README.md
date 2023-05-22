@@ -16,25 +16,28 @@ ISL classification with Custom CNN and Resnet50
 </table>
 
 ## Inference:
+
 <table>
 <th>Input Sign</th>
 <th>Inference</th>
 <tr>
 <td>4</td>
-<td><img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/blob/main/Images/streamlit_output1.png"/></td>
+<td><img src=""/></td>
 </tr>
 <tr>
 <td>A</td>
-<td><img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/blob/main/Images/streamlit_output2.png"/></td>
+<td><img src=""/></td>
 </tr>
 </table>
 
 ## Installing Requirements
+
 ```
 pip install -r requirements.txt
 ```
 
 ## Get trained models
+
 <table>
 <th>Model Name</th>
 <th>Size</th>
@@ -75,6 +78,7 @@ Transfer Learning - ResNet50V2 - Model 2
 </table>
 
 ## Accuracy and Losses:
+
 <table>
 <th>Model Name</th>
 <th>Accuracy</th>
@@ -88,10 +92,10 @@ Custom CNN
 98.38%
 </td>
 <td>
-<img src="./Images/Custom CNN Loss.png"/>
+<img src=""/>
 </td>
 <td>
-<img src="./Images/Custom CNN Accuracy.png"/>
+<img src=""/>
 </td>
 </tr>
 <tr>
@@ -102,10 +106,10 @@ Transfer Learning - ResNet50V2 - Model 1
 99.93%
 </td>
 <td>
-<img src="./Images/tl_model_1_loss.png"/>
+<img src=""/>
 </td>
 <td>
-<img src="./Images/tl_model_1_accuracy.png"/>
+<img src=""/>
 </td>
 </tr>
 <tr>
@@ -116,10 +120,10 @@ Transfer Learning - ResNet50V2 - Model 2
 98.95%
 </td>
 <td>
-<img src="./Images/tl_model_2_loss.png"/>
+<img src=""/>
 </td>
 <td>
-<img src="./Images/tl_model_2_accuracy.png"/>
+<img src=""/>
 </td>
 </tr>
 </table>
