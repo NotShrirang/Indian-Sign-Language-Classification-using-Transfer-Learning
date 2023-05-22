@@ -22,11 +22,13 @@ ISL classification with Custom CNN and Resnet50
 <th>Inference</th>
 <tr>
 <td>4</td>
-<td><img src=""/></td>
+<td>
+  <img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/a7eda912-6248-4427-8555-adca842c4cf2"/>
+  </td>
 </tr>
 <tr>
 <td>A</td>
-<td><img src=""/></td>
+<td><img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/77eff979-dd46-4869-9f05-bfddab7748de"/></td>
 </tr>
 </table>
 
@@ -92,10 +94,10 @@ Custom CNN
 98.38%
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/f90b072c-8715-4809-81cf-8d9d88e0faa2"/>
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/2ce47e50-a614-4742-9d20-febd55a949a2"/>
 </td>
 </tr>
 <tr>
@@ -106,10 +108,10 @@ Transfer Learning - ResNet50V2 - Model 1
 99.93%
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/3f55444b-0b1b-4b21-999c-96033b6af08d"/>
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/48cc7a37-320d-4324-8178-cc21ba1e7b38"/>
 </td>
 </tr>
 <tr>
@@ -120,10 +122,10 @@ Transfer Learning - ResNet50V2 - Model 2
 98.95%
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/aac9f113-7aaf-4f9a-8aec-77dbfa858e84"/>
 </td>
 <td>
-<img src=""/>
+<img src="https://github.com/NotShrirang/Indian-Sign-Language-Classification-using-Transfer-Learning/assets/85283622/f9832eb7-9859-444b-b25a-4e3ca46a64be"/>
 </td>
 </tr>
 </table>
